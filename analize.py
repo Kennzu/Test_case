@@ -105,19 +105,6 @@ gr = df.groupby(['Region','Sales_group'])['Sales'].sum().reset_index()
 print(gr)
 
 
-# excel_file = 'Test_case/test1.xlsx'
-# csv_file = 'test1.csv'
-
-# df = pd.read_excel(excel_file)
-# df.to_csv(csv_file, encoding='UTF-8')
-# print(df)
-
-# trouble = df['Проблема'].unique()
-# print(trouble)
-
-# filter = trouble[(trouble == 'Нет СМС') | (trouble == 'проблема с ПСБ банком')]
-# print(filter)
-
 
 
 
